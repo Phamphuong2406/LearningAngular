@@ -1,0 +1,14 @@
+
+    <nav>
+        <div class="nav-container" *ngFor="let item of navbar">
+           <h2 class="logo"><img [src]="item.avata" alt="HTML Tutorial"  height="28" width="28" />    {{item.name}}</h2>
+            <ul >
+                <li *ngFor="let items of item.select"><a href="#">{{items.title}}</a></li>
+
+            </ul>
+            <button type="button">{{item.buttontitle}}</button>
+
+        </div>
+
+
+    </nav>

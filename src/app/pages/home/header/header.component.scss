@@ -1,0 +1,67 @@
+
+.header-section {
+    max-height: 100vh;
+    color: white;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+    padding: 0 20px;
+    display: flex;
+}
+.header-section .container {
+    max-width: 800px;
+    
+}
+
+.header-section .container .flex-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 150px 0px 0px 120px;;
+}
+.header-section .container .flex-container .left-box {
+    width: 100%
+    
+}
+.header-section .container .flex-container .left-box h1 {
+    color: black;
+    font-size: 96px;
+    height:180px;
+}
+.header-section .container .flex-container .left-box p {
+    color: black;
+    font-size: 14px;
+    width: 375px;
+    height:67px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section .container .flex-container .left-box  .btn {
+    background: linear-gradient(to right, #B224EF,#7579FF); 
+  color: white;
+  padding: 17px 80px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+   justify-content: flex-start;
+   margin: 30px 0px 200px 0px;
+   font-size: 24px;
+  
+}
+.left-box-btn{
+      display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+
+}
+
+.header-section .flex-container-right
+{
+   display: flex;
+    justify-content: flex-end;
+}
+.header-section .flex-container-right .right-box {
+    width: 100%;
+    margin: 200px 0px 0px 0px;
+}

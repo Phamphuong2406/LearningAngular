@@ -11,4 +11,5 @@ import { HomeComponent } from './pages/home/home.component';
 })
 export class App {
   protected title = 'LearningAngular';
+ 
 }
