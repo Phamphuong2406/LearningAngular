@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
     navbar = [{
-        avata: '/assets/images/avata.png', name: 'Cristian Muñoz', buttontitle: 'Contact Mes',
+        avata: '/assets/images/avata.png', name: 'Cristian Muñoz', buttontitle: 'Contact Me',
         select: [{
             title: 'Home'
         },

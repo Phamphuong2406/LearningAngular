@@ -10,5 +10,18 @@ import { CommonModule } from '@angular/common';
 })
 export class SkillsComponent {
   protected title = 'LearningAngular';
+  skills=[{
+    skilltitle:'Skills',
+    skillcontent:[
+      {image:'/assets/images/ellip1.png',
+      description:'Figma / Adobe XD'},
+     {image:'',
+      description:'UI Desing'},
+     {image:'',
+      description:'Information Architecture'},
+     {image:'',
+      description:'UX Desing'},
+    ]
+  }]
   
 }

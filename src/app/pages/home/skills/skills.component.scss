@@ -2,12 +2,11 @@
     height: 100vh;
     color: #FFFFFF;
     display: flex;
-    padding: 0 150px;
     display: flex;
 }
 
 .skills-section .container {
-    max-width: 1600px;
+    max-width: 1900px;
 
 }
 
@@ -37,14 +36,20 @@
 
 .skills-section .container .skills-chart {
     border-bottom: 4px solid #EDEEFF;
-    padding: 20px 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.skills-section .container .skills-chart .skills-chart-item {
+// .skills-section .container .skills-chart .skills-chart-couple {
 
-    margin-right: 200px;
-}
+//    width: calc(50%); 
+//   text-align: center;
+// }
+// .skills-section .container .skills-chart .skills-chart-couple {
+
+//    width: calc(50%); 
+//   text-align: center;
+// }
 
 .skills-section .container .skills-chart h2 {
     color: black;
@@ -54,4 +59,13 @@
     text-align: center;
     margin: 0 0 0 24px;
     font-weight: 400;
+}
+.skills-section .container .skills-chart h1 {
+
+color: #5f6073;
+position: absolute;
+z-index: 2;
+margin: 90px 80px;
+font-family: 'Poppins', sans-serif;
+font-size:35px;
 }

@@ -1,24 +1,34 @@
+<section class="header-section">
 
-        <section class="header-section">
-            <div class="container ">
-                <div class="flex-container">
-                    <div class="left-box" *ngFor="let item of introduce">
-                        <h1>{{item.title}}</h1>
-                        <p>{{item.descripsion}}</p>
-                        <div class="left-box-btn">
-                            <a href="#contact" class="btn">{{item.buttontitle}}</a>
-                            <img src="{{item.image}}" alt="HTML Tutorial" width="150"/>
-                        </div>
+    <div class="flex-container">
+        <div class="flex-container-left">
+            <img id="image1" src="/assets/images/highlight_05.svg" alt="HTML Tutorial" />
 
-                    </div>
+            <div class="left-box" *ngFor="let item of introduce">
 
+               
+                <div class="left-box-title">
+                                  <img id="image2" src="/assets/images/color.png" alt="HTML Tutorial" />
+                    <h1>{{item.title1}} </h1>
+                    <h1>{{item.title2}}</h1>
+                </div>
+
+                <p>{{item.descripsion}}</p>
+                <div class="left-box-btn">
+                    <a href="#contact" class="btn">{{item.buttontitle}} </a>
+                    <!-- <img src="{{item.image}}" alt="HTML Tutorial"  /> -->
                 </div>
 
             </div>
-            <div class="flex-container-right">
-                <div class="right-box">
-                    <img src="/assets/images/ui.png" alt="HTML Tutorial" width="100%" />
-                </div>
+        </div>
 
-            </div>
-        </section>
+
+    </div>
+
+    <div class="flex-container-right">
+        <div class="right-box">
+            <img src="/assets/images/ui.png" alt="HTML Tutorial" />
+        </div>
+
+    </div>
+</section>

@@ -4,8 +4,11 @@
     background-color: #FFFFFF;
     background-size: cover;
     background-position: center;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-
+.home-content {
+    max-width: 86%;
+}
