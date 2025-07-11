@@ -17,20 +17,21 @@
     font-size: 64px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    padding:47px 0 0 0;
+    padding: 47px 0 0 0;
     z-index: 1;
 }
 
 
 .skills-section .container .skills-title {
-    height: 17%;
+    height: 25%;
     width: 100%;
     border-bottom: 4px solid #EDEEFF;
     position: relative;
 }
+
 .skills-section .container .skills-title img {
     position: absolute;
-    margin:0 0 0 60px;
+    margin: 0 0 0 60px;
     z-index: 2;
 }
 
@@ -60,12 +61,13 @@
     margin: 0 0 0 24px;
     font-weight: 400;
 }
+
 .skills-section .container .skills-chart h1 {
 
-color: #5f6073;
-position: absolute;
-z-index: 2;
-margin: 90px 80px;
-font-family: 'Poppins', sans-serif;
-font-size:35px;
+    color: #5f6073;
+    position: absolute;
+    z-index: 2;
+    margin: 90px 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
 }

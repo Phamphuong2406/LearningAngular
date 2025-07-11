@@ -14,23 +14,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .flex-container-left {
     display: flex;
-    position: relative;
+
     max-height: 100%;
+    max-width: 100%;
 }
 
 .flex-container-left #image1 {
     display: flex;
     position: absolute;
     z-index: 2;
-    top: -20px;
-    left: 70%;
-
+    left: 55%;
+    top: -15%;
 }
+
 
 
 
@@ -52,16 +53,17 @@
     width: 600px;
     position: relative;
 }
-.header-section .flex-container .flex-container-left .left-box .left-box-title #image2{
-  z-index: 2;
-  right:5%;
-  bottom: 5%;
-  position:absolute;
+
+.header-section .flex-container .flex-container-left .left-box .left-box-title #image2 {
+    z-index: 2;
+    right: 18%;
+    bottom: 5%;
+    position: absolute;
 }
 
 .header-section .flex-container .flex-container-left .left-box .left-box-title h1 {
     color: black;
-    font-size: 120px;
+    font-size: 96px;
     max-width: 100%;
     font-family: 'Poppins', sans-serif;
     text-wrap: balance;
@@ -71,8 +73,8 @@
 
 .header-section .flex-container .left-box p {
     color: black;
-    font-size: 18px;
-    max-width: 500px;
+    font-size: 14px;
+    max-width: 69%;
     max-height: 100%;
     font-family: 'Poppins', sans-serif;
 }
@@ -89,6 +91,10 @@
     justify-content: flex-start;
     margin: 30px 0px 200px 0px;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+
+    /* căn giữa theo chiều dọc */
 }
 
 .left-box-btn {
@@ -97,7 +103,18 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     gap: 10px;
-position: relative;
+    position: relative;
+}
+
+.left-box-btn .btn #image4 {
+    width: 13%;
+}
+
+.left-box-btn #image3 {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    width: 40%;
 }
 
 .header-section .flex-container .left-box .left-box-btn img {
