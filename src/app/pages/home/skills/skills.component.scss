@@ -1,8 +1,8 @@
 .skills-section {
-    height: 100vh;
+
     color: #FFFFFF;
     display: flex;
-    display: flex;
+    margin-top: -20%;
 }
 
 .skills-section .container {
@@ -11,9 +11,12 @@
 }
 
 .skills-section .container .gradient-text {
-    background: linear-gradient(to right, #B224EF, #7579FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background: linear-gradient(to right, #B224EF, #7579FF);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+      background: linear-gradient( #B224EF, #7579FF);
+      background-clip: text;
+      color: transparent;
     font-size: 64px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -23,7 +26,7 @@
 
 
 .skills-section .container .skills-title {
-    height: 25%;
+    height: 17%;
     width: 100%;
     border-bottom: 4px solid #EDEEFF;
     position: relative;
@@ -39,27 +42,40 @@
     border-bottom: 4px solid #EDEEFF;
     display: flex;
     flex-wrap: wrap;
+padding-bottom: 10%;
+    width: 100%;
 }
 
-// .skills-section .container .skills-chart .skills-chart-couple {
+.skills-section .container .skills-chart .skills-chart-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    margin-top: 5%;
+}
 
-//    width: calc(50%); 
-//   text-align: center;
-// }
-// .skills-section .container .skills-chart .skills-chart-couple {
+.skills-section .container .skills-chart .skills-chart-row .skills-chart-couple {
+    display: flex;
+    width: 50%;
+      flex: 0 0 47%; 
+    align-items: center;
+    justify-content: space-between;
+}
 
-//    width: calc(50%); 
-//   text-align: center;
-// }
+.skills-section .container .skills-chart .skills-chart-row .skills-chart-couple .skills-chart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+}
 
-.skills-section .container .skills-chart h2 {
+.skills-section .container .skills-chart .skills-chart-row .skills-chart-couple h2 {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-    width: 70%;
-    text-align: center;
-    margin: 0 0 0 24px;
     font-weight: 400;
+    max-width: 70%;
+    max-height: 30px;
 }
 
 .skills-section .container .skills-chart h1 {

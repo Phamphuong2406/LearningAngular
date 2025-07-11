@@ -1,60 +1,66 @@
 <section class="skills-section">
-    <div class="container">
+    <div class="container" *ngFor="let skill of skills">
         <div class="skills-title">
             <img src="/assets/images/highlight_10.svg" alt="" width="150px" />
-            <h1 class="gradient-text">Skills</h1>
+            <h1 class="gradient-text">{{skill.skilltitle}}</h1>
         </div>
         <div class="skills-chart ">
-            <div class="skills-chart-couple">
-                <div class="skills-chart-item">
-                    <h1>90%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>Figma / Adobe XD</h2>
+            <div class="skills-chart-row" >
+                <div class="skills-chart-couple">
+                    <div class="skills-chart-item">
+                        <h1>90%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>Figma / Adobe XD</h2>
+                    </div>
+                    <div class="skills-chart-item">
+                        <h1>80%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>UI Desing</h2>
+                    </div>
                 </div>
-                <div class="skills-chart-item">
-                    <h1>80%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>UI Desing</h2>
+
+                <div class="skills-chart-couple">
+                    <div class="skills-chart-item">
+                        <h1>90%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>Figma / Adobe XD</h2>
+                    </div>
+                    <div class="skills-chart-item">
+                        <h1>80%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>UI Desing</h2>
+                    </div>
                 </div>
             </div>
 
-           <div class="skills-chart-couple">
-                <div class="skills-chart-item">
-                    <h1>90%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>Figma / Adobe XD</h2>
+             <div class="skills-chart-row">
+                <div class="skills-chart-couple">
+                    <div class="skills-chart-item">
+                        <h1>90%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>Figma / Adobe XD</h2>
+                    </div>
+                    <div class="skills-chart-item">
+                        <h1>80%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>UI Desing</h2>
+                    </div>
                 </div>
-                <div class="skills-chart-item">
-                    <h1>80%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>UI Desing</h2>
-                </div>
-            </div>
-          <div class="skills-chart-couple">
-                <div class="skills-chart-item">
-                    <h1>90%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>Figma / Adobe XD</h2>
-                </div>
-                <div class="skills-chart-item">
-                    <h1>80%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>UI Desing</h2>
-                </div>
-            </div>
-            <div class="skills-chart-couple">
-                <div class="skills-chart-item">
-                    <h1>90%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>Figma / Adobe XD</h2>
-                </div>
-                <div class="skills-chart-item">
-                    <h1>80%</h1>
-                    <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
-                    <h2>UI Desing</h2>
-                </div>
-            </div>
 
+                <div class="skills-chart-couple">
+                    <div class="skills-chart-item">
+                        <h1>90%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>Figma / Adobe XD</h2>
+                    </div>
+                    <div class="skills-chart-item">
+                        <h1>80%</h1>
+                        <img src="/assets/images/ellip1.png" alt="HTML Tutorial" />
+                        <h2>UI Desing</h2>
+                    </div>
+                </div>
+           
+            </div>
         </div>
 
     </div>

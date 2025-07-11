@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 
 
 
+
 @Component({
   selector: 'home',
   imports: [NavbarComponent, CommonModule,HeaderComponent,SkillsComponent],

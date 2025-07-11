@@ -1,11 +1,10 @@
 .header-section {
-    max-height: 100vh;
+  
     color: white;
     display: flex;
     // align-items: center;
     // justify-content: center;
     // text-align: center;
-    display: flex;
 }
 
 .header-section .flex-container {
@@ -31,9 +30,6 @@
     left: 55%;
     top: -15%;
 }
-
-
-
 
 .header-section .flex-container .flex-container-left .left-box {
     width: 100%;
