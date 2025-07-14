@@ -14,9 +14,9 @@
     // background: linear-gradient(to right, #B224EF, #7579FF);
     // -webkit-background-clip: text;
     // -webkit-text-fill-color: transparent;
-      background: linear-gradient( #B224EF, #7579FF);
-      background-clip: text;
-      color: transparent;
+    background: linear-gradient(#B224EF, #7579FF);
+    background-clip: text;
+    color: transparent;
     font-size: 64px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -42,7 +42,7 @@
     border-bottom: 4px solid #EDEEFF;
     display: flex;
     flex-wrap: wrap;
-padding-bottom: 10%;
+    padding-bottom: 10%;
     width: 100%;
 }
 
@@ -50,14 +50,14 @@ padding-bottom: 10%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-   justify-content: space-between;
+    justify-content: space-between;
     margin-top: 5%;
+    gap: 5%;
 }
 
 .skills-section .container .skills-chart .skills-chart-row .skills-chart-couple {
     display: flex;
-    width: 50%;
-      flex: 0 0 47%; 
+    flex: 1 1 47.5%;
     align-items: center;
     justify-content: space-between;
 }
@@ -66,6 +66,7 @@ padding-bottom: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 1 45%;
     max-height: 100%;
 }
 

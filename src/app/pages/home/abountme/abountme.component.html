@@ -1,26 +1,29 @@
 <section class="abountme-section">
-    <div class="container" *ngFor="let items of abountme">
-        <h1>{{items.title}}</h1>
+    <div class="abountme-section-grid">
+        <div class="container" *ngFor="let items of abountme">
+            <h1>{{items.title}}</h1>
 
-        <div class="white-center-block">
-            <ng-container *ngFor="let item of items.content; let i = index">
-                <div class="multicolor-center-block" *ngIf="i === 0">
-                    <img id="image4" src="{{item.image}}" alt="" />
-                    <h2>{{item.percent}}</h2>
-                    <h3>{{item.description}}</h3>
-                </div>
-                <ng-container *ngIf="i !== 0">
-                    <div class="white-center-item">
-
+            <div class="white-center-block">
+                <ng-container *ngFor="let item of items.content; let i = index">
+                    <div class="multicolor-center-block" *ngIf="i === 0">
                         <img id="image4" src="{{item.image}}" alt="" />
                         <h2>{{item.percent}}</h2>
                         <h3>{{item.description}}</h3>
-
                     </div>
-                </ng-container>
+                    <ng-container *ngIf="i !== 0">
+                        <div class="white-center-item">
 
-            </ng-container>
-          <!-- <image id="image5" src="/assets/images/highlight_04.png" alt="HTML Tutorial" /> -->
+                            <img id="image4" src="{{item.image}}" alt="" />
+                            <h2>{{item.percent}}</h2>
+                            <h3>{{item.description}}</h3>
+
+                        </div>
+                    </ng-container>
+
+                </ng-container>
+                <img id="image5" src="/assets/images/highlight_04.png" alt="HTML Tutorial" />
+            </div>
         </div>
     </div>
+
 </section>
