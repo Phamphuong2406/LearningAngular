@@ -1,0 +1,102 @@
+.portfolio-section {
+    color: aqua;
+
+
+    margin-top: -200px;
+}
+
+.portfolio-section .portfolio-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.custom-shape-divider-top-1752460276 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    height: 174px;
+}
+
+.portfolio-container .portfolio-title-container {
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    top: 16%;
+    width: 80%;
+    padding: 2% 0;
+    border-bottom: 4px solid #EDEEFF;
+}
+
+.portfolio-container .portfolio-title-container #image7 {
+    width: 166px;
+    height: 23px;
+    position: absolute;
+    left: 9%;
+    margin-top: -18px;
+}
+
+.portfolio-container #portfolio-title {
+    background: linear-gradient(#B224EF, #7579FF);
+    background-clip: text;
+    color: transparent;
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    //   border-bottom: 4px solid #EDEEFF;
+}
+
+.portfolio-container .portfolio-content {
+    margin-top: 5%;
+}
+
+.portfolio-container .portfolio-content .portfolio-content-row {
+    padding: 10% 5%;
+    gap: 5%;
+    display: flex;
+    //add
+
+}
+
+.portfolio-container .portfolio-content .portfolio-content-discription {
+    position: absolute;
+    margin: 30% 10%;
+}
+
+.portfolio-container .portfolio-content .portfolio-content-row .item-title {
+    background: linear-gradient(#B224EF, #7579FF);
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.portfolio-container .portfolio-content .item-status {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #5F6073;
+}
+
+.portfolio-container .portfolio-content .portfolio-content-item {
+    width: 520px;
+    height: 278px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: relative;
+}
+
+.portfolio-container .portfolio-content #image6 {
+    width: 417px;
+    height: 260px;
+    position: absolute;
+    z-index: 3;
+    top: -40%;
+    right: 10%;
+    border-radius: 16px;
+}
